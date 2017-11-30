@@ -23,9 +23,9 @@ body {
 
 .banner-content {
   margin: 0;
-  padding: 1.5em 1em;
+  padding: 1em;
   width: 100%;
-  max-width: 50em;
+  max-width: 45em;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -35,14 +35,14 @@ body {
 .mecha {
   float: left;
   display: inline-block;
-  width: 33%;
+  max-width: 30%;
 }
 
 .text {
   padding-left: 3em;
   float: right;
   display: inline-block;
-  width: 67%;
+  max-width: 70%;
 }
 
 .text h2 {
@@ -57,7 +57,8 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   max-width: 18em;
-  margin: 0 0 1em;
+  margin: .5em 0;
+  padding-right: 1em;
 }
 
 .btn {
