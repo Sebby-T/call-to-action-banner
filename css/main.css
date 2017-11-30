@@ -5,3 +5,75 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-content {
+  margin: 0;
+  padding: 1.5em;
+  width: 100%;
+  max-width: 50em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mecha {
+  float: left;
+  display: inline-block;
+  width: 33%
+}
+
+.text {
+  padding-left: 3em;
+  float: right;
+  display: inline-block;
+  width: 67%;
+}
+
+.text h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  max-width: 6em;
+}
+
+.text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-width: 18em;
+  margin: 0 0 1em;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #333;
+}
+
+.btn-big {
+  font-size:  1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+}
